@@ -12,7 +12,11 @@ TAGS [ <tag> ]
 SECTIONS [ #section ]
 ######################################## */
 
-#scene {}
+#scene {
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
 
 #baggrund1 {
     background-image: url("../img/baggrund1_uden_skyer_og_bobler.svg");
@@ -47,49 +51,149 @@ SECTIONS [ #section ]
     }
 }
 
+/* bobler */
+
+.bobble {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    z-index: 3;
+}
+
 #bobler1 {
+    width: 3.8vw;
+    height: 2.55vw;
     background-image: url("../img/bobble1.svg");
+    top: 52.1vw;
+    left: 33.3vw;
 }
 
 #bobler2 {
+    width: 3.8vw;
+    height: 2.55vw;
     background-image: url("../img/bobble2.svg");
+    top: 48.4vw;
+    left: 29vw;
 }
 
 #bobler3 {
+    width: 3.2vw;
+    height: 2.5vw;
     background-image: url("../img/bobble3.svg");
+    top: 42vw;
+    left: 31.2vw;
 }
 
 #bobler4 {
+    width: 3.2vw;
+    height: 2.1vw;
     background-image: url("../img/bobble4.svg");
+    top: 38.4vw;
+    left: 26.7vw;
 }
 
 #bobler5 {
+    width: 3.8vw;
+    height: 2.55vw;
     background-image: url("../img/bobble5.svg");
+    top: 36.5vw;
+    left: 35.8vw;
 }
 
 #bobler6 {
+    width: 3.8vw;
+    height: 2.55vw;
     background-image: url("../img/bobble6.svg");
+    top: 36.2vw;
+    left: 44.6vw;
 }
 
 #bobler7 {
+    width: 3.8vw;
+    height: 2.55vw;
     background-image: url("../img/bobble7.svg");
+    top: 36.9vw;
+    left: 59.7vw;
 }
 
 #bobler8 {
+    width: 3.8vw;
+    height: 2.55vw;
     background-image: url("../img/bobble8.svg");
+    top: 40.6vw;
+    left: 68.1vw;
 }
 
 #bobler9 {
+    width: 3.8vw;
+    height: 2.55vw;
     background-image: url("../img/bobble9.svg");
+    top: 46.1vw;
+    left: 70vw;
 }
 
 #bobler10 {
+    width: 4.6vw;
+    height: 3.1vw;
     background-image: url("../img/bobble10.svg");
+    top: 49.6vw;
+    left: 63vw;
 }
 
 #bobler11 {
+    width: 2.2vw;
+    height: 3.5vw;
     background-image: url("../img/bobble11.svg");
+    top: 45.5vw;
+    left: 61.7vw;
 }
+
+.bobble_anim_1 {
+    animation-name: bobble_anim_1_kf;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.bobble_anim_2 {
+    animation-name: bobble_anim_2_kf;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+
+}
+
+@keyframes bobble_anim_1_kf {
+    0% {
+        transform: scale(0.6);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.6);
+    }
+}
+
+@keyframes bobble_anim_2_kf {
+    0% {
+        transform: scale(0.6);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.6);
+    }
+}
+
+/* bobler SLUT */
 
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
