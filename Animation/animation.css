@@ -30,10 +30,12 @@ SECTIONS [ #section ]
 }
 
 #sky1 {
+    width: 46vw;
+    height: 10.5vw;
     background-image: url("../img/skyer.svg");
     background-repeat: no-repeat;
-    height: 23.22vw;
-    width: 80vw;
+    background-position: 0 0;
+    background-size: contain;
     position: absolute;
     z-index: 3;
     top: 7.8vw;
