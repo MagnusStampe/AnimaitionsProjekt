@@ -12,7 +12,12 @@ TAGS [ <tag> ]
 SECTIONS [ #section ]
 ######################################## */
 
-#scene1 {}
+#scene1 {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
 
 #baggrund1 {
     background-image: url("../img/baggrund1_uden_skyer_og_bobler.svg");
@@ -128,9 +133,12 @@ SECTIONS [ #section ]
 }
 
 
-
-
-#scene2 {}
+#scene2 {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
 
 #baggrund2 {
     background-image: url("../img/baggrund2_med_fyld.svg");
