@@ -18,14 +18,33 @@ SECTIONS [ #section ]
     background-image: url("../img/baggrund1_uden_skyer_og_bobler.svg");
     background-size: cover;
     width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
 }
 
 #sky1 {
     background-image: url("../img/sky1.svg");
+    background-repeat: no-repeat;
+    height: 23.22vw;
+    width: 80vw;
+    position: absolute;
+    z-index: 2;
+    top: 7.8vw;
+    animation-name: sky_kf;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 
-#sky2 {
-    background-image: url("../img/sky2.svg");
+@keyframes sky_kf {
+    0% {
+        left: -100vw;
+    }
+    100% {
+        left: 100vw;
+    }
 }
 
 #bobler1 {
