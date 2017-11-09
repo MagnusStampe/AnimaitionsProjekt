@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.96" height="40.84" viewBox="0 0 60.96 40.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="30.48" y1="60.96" x2="30.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e9ebec"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="30.48" y1="40.84" x2="30.48" y2="22.54" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>bobble8</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <path class="cls-1" d="M30.48,22.54c14.7,0,27,2.95,30.45,6.92a30.47,30.47,0,0,0-60.9,0C3.45,25.49,15.78,22.54,30.48,22.54Z"/>
+        <path class="cls-1" d="M30.48,40.84c14.43,0,26.58-2.84,30.25-6.7A29.48,29.48,0,0,0,61,30.48q0-.51,0-1c-3.42-4-15.75-6.92-30.45-6.92S3.45,25.49,0,29.46q0,.51,0,1a29.48,29.48,0,0,0,.23,3.66C3.9,38,16.05,40.84,30.48,40.84Z"/>
+        <path class="cls-2" d="M30.48,40.84c14.43,0,26.58-2.84,30.25-6.7A29.48,29.48,0,0,0,61,30.48q0-.51,0-1c-3.42-4-15.75-6.92-30.45-6.92S3.45,25.49,0,29.46q0,.51,0,1a29.48,29.48,0,0,0,.23,3.66C3.9,38,16.05,40.84,30.48,40.84Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
