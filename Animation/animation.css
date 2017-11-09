@@ -34,7 +34,6 @@ SECTIONS [ #section ]
     height: 10.5vw;
     background-image: url("../img/skyer.svg");
     background-repeat: no-repeat;
-    background-position: 0 0;
     background-size: contain;
     position: absolute;
     z-index: 3;
@@ -61,7 +60,6 @@ SECTIONS [ #section ]
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 0 0;
     z-index: 3;
 }
 
@@ -69,6 +67,8 @@ SECTIONS [ #section ]
     width: 3.8vw;
     height: 2.55vw;
     background-image: url("../img/bobble1.svg");
+    background-size: contain;
+
     top: 52.1vw;
     left: 33.3vw;
 }
@@ -77,6 +77,8 @@ SECTIONS [ #section ]
     width: 3.8vw;
     height: 2.55vw;
     background-image: url("../img/bobble2.svg");
+    background-size: contain;
+
     top: 48.4vw;
     left: 29vw;
 }
@@ -85,6 +87,8 @@ SECTIONS [ #section ]
     width: 3.2vw;
     height: 2.5vw;
     background-image: url("../img/bobble3.svg");
+    background-size: contain;
+
     top: 42vw;
     left: 31.2vw;
 }
@@ -93,6 +97,8 @@ SECTIONS [ #section ]
     width: 3.2vw;
     height: 2.1vw;
     background-image: url("../img/bobble4.svg");
+    background-size: contain;
+
     top: 38.4vw;
     left: 26.7vw;
 }
@@ -208,12 +214,11 @@ SECTIONS [ #section ]
 
 #pige_container {
     position: absolute;
-    left: 10%;
     z-index: 100;
-    top: 30%;
+    top: 16.25vw;
+    left: 30vw;
     width: 40vw;
     height: 40vw;
-    left: 10%;
 }
 
 .pige_ryg_til {
