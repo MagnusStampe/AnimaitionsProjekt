@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="735.36" height="166.77" viewBox="0 0 735.36 166.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="480.43" y1="166.77" x2="480.43" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffda6a"/>
+      <stop offset="0.14" stop-color="#ffc6ed"/>
+      <stop offset="0.21" stop-color="#ffdaf3"/>
+      <stop offset="0.3" stop-color="#ffebf9"/>
+      <stop offset="0.41" stop-color="#fff6fc"/>
+      <stop offset="0.56" stop-color="#fffdfe"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="182.12" y1="120.96" x2="182.12" y2="6.72" xlink:href="#linear-gradient"/>
+  </defs>
+  <title>skyer</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M733.8,97.87c-4.7-34.48-39.71-59.82-74.5-59.82a62.7,62.7,0,0,0-31.44,8.4A77.71,77.71,0,0,0,485.07,47.6a46.15,46.15,0,0,0-64.5,18.54,63.35,63.35,0,0,0-110.52,8.68,37.23,37.23,0,0,0-20.64-6.21c-16.39,0-39.71,9.36-49.71,18-17.14,14.82-27.6,77.43,22.27,77.76,20.81.14,337.82,5.3,454.09,0C739.47,163.32,736,113.63,733.8,97.87Z"/>
+      <path class="cls-2" d="M363.14,74.21C359.79,50.43,334.78,33,309.92,33a46,46,0,0,0-22.47,5.79c-8.59-18.86-28.11-32-50.82-32-23,0-42.79,13.54-51.19,32.83a33.62,33.62,0,0,0-16.79-4.44,33.11,33.11,0,0,0-29.29,17.22,46,46,0,0,0-79,6A27.21,27.21,0,0,0,45.66,54c-11.72,0-28.38,6.46-35.52,12.42C-2.1,76.67-9.58,119.85,26.05,120.08c14.87.1,240,1.93,324.42,0C367.09,119.7,364.68,85.08,363.14,74.21Z"/>
+    </g>
+  </g>
+</svg>
