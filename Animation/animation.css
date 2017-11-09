@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-#scene {}
-
-#baggrund1 {}
-
-#sky {}
-
-#bobler {}
 
 /* ########################################
 TAGS [ <tag> ]
@@ -18,6 +11,66 @@ TAGS [ <tag> ]
 /* ########################################
 SECTIONS [ #section ]
 ######################################## */
+
+#scene {}
+
+#baggrund1 {
+    background-image: url("../img/baggrund1_uden_skyer_og_bobler.svg");
+    background-size: cover;
+    width: 100%;
+}
+
+#sky1 {
+    background-image: url("../img/sky1.svg");
+}
+
+#sky2 {
+    background-image: url("../img/sky2.svg");
+}
+
+#bobler1 {
+    background-image: url("../img/bobble1.svg");
+}
+
+#bobler2 {
+    background-image: url("../img/bobble2.svg");
+}
+
+#bobler3 {
+    background-image: url("../img/bobble3.svg");
+}
+
+#bobler4 {
+    background-image: url("../img/bobble4.svg");
+}
+
+#bobler5 {
+    background-image: url("../img/bobble5.svg");
+}
+
+#bobler6 {
+    background-image: url("../img/bobble6.svg");
+}
+
+#bobler7 {
+    background-image: url("../img/bobble7.svg");
+}
+
+#bobler8 {
+    background-image: url("../img/bobble8.svg");
+}
+
+#bobler9 {
+    background-image: url("../img/bobble9.svg");
+}
+
+#bobler10 {
+    background-image: url("../img/bobble10.svg");
+}
+
+#bobler11 {
+    background-image: url("../img/bobble11.svg");
+}
 
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
