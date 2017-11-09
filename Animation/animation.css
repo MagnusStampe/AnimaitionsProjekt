@@ -3,10 +3,21 @@
     padding: 0;
 }
 
+
+/* ########################################
+TAGS [ <tag> ]
+######################################## */
+
+/* ########################################
+SECTIONS [ #section ]
+######################################## */
+
 #scene {}
 
 #baggrund1 {
     background-image: url("../img/baggrund1_uden_skyer_og_bobler.svg");
+    background-size: cover;
+    width: 100%;
 }
 
 #sky1 {
@@ -60,15 +71,6 @@
 #bobler11 {
     background-image: url("../img/bobble11.svg");
 }
-
-
-/* ########################################
-TAGS [ <tag> ]
-######################################## */
-
-/* ########################################
-SECTIONS [ #section ]
-######################################## */
 
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
