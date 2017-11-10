@@ -39,7 +39,7 @@ SECTIONS [ #section ]
     z-index: 3;
     top: 7.8vw;
     animation-name: sky_kf;
-    animation-duration: 16s;
+    animation-duration: 22s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
@@ -209,8 +209,6 @@ SECTIONS [ #section ]
     top: 20%;
 
     z-index: 5;
-
-
 }
 
 
