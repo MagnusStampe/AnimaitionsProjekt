@@ -16,9 +16,7 @@ section {
 SECTIONS [ #section ]
 ######################################## */
 
-#gruppe {
-    background-color: blue;
-}
+#gruppe {}
 
 #animation {
     background-color: red;
