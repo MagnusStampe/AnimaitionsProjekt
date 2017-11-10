@@ -158,7 +158,6 @@ SECTIONS [ #section ]
     position: absolute;
     z-index: 3;
     top: 16.25vw;
-    left: 30vw;
     width: 40vw;
     height: 40vw;
 }
@@ -256,12 +255,20 @@ CLASSES [ .class ]
     animation-duration: 1s;
     animation-timing-function: steps(8);
     animation-iteration-count: infinite;
+
+}
+
+.pige_ryg_til_container {
+    left: 30vw;
 }
 
 .pige_front {
     background-position: 0% -100%;
 }
 
+.pige_front_container {
+    left: 10vw;
+}
 
 .hand_move {
     animation-name: hand_kf;
