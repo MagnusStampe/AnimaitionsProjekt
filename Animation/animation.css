@@ -20,7 +20,7 @@ SECTIONS [ #section ]
 }
 
 #baggrund1 {
-    background-image: url("../img/baggrund1_uden_skyer_og_bobler.svg");
+    background-image: url("../img/baggrund_1_uden_skyer_og_bobler.svg");
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -206,8 +206,8 @@ SECTIONS [ #section ]
 /* bobler SLUT */
 
 #pige_sprite {
-    background-image: url("../img/pige_sprite1.svg");
-    background-size: 800% 100%;
+    background-image: url("../img/pige_sprite.svg");
+    background-size: 800% 200%;
     width: 100%;
     height: 100%;
 }
@@ -238,7 +238,7 @@ SECTIONS [ #section ]
 }
 
 .pige_front {
-    background-position: -100% 0%;
+    background-position: 0% -100%;
 }
 
 
