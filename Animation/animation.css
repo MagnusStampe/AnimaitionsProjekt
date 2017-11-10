@@ -237,6 +237,10 @@ SECTIONS [ #section ]
     }
 }
 
+.pige_front {
+    background-position: -100% 0%;
+}
+
 
 #scene2 {
     overflow: hidden;
@@ -255,7 +259,7 @@ SECTIONS [ #section ]
     z-index: 2;
 }
 
-#baggrund3 {
+#baggrund2_2 {
     background-image: url("../img/baggrund2_uden_fyld.svg");
     background-size: cover;
     width: 100%;
