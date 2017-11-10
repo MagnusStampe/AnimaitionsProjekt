@@ -56,13 +56,6 @@ SECTIONS [ #section ]
 
 /* bobler */
 
-.bobble {
-    position: absolute;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: 3;
-}
-
 #bobler1 {
     width: 3.8vw;
     height: 2.55vw;
@@ -159,50 +152,6 @@ SECTIONS [ #section ]
     left: 61.7vw;
 }
 
-.bobble_anim_1 {
-    animation-name: bobble_anim_1_kf;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-.bobble_anim_2 {
-    animation-name: bobble_anim_2_kf;
-    animation-duration: 6s;
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-delay: 1s;
-
-}
-
-@keyframes bobble_anim_1_kf {
-    0% {
-        transform: scale(0.6);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(0.6);
-    }
-}
-
-@keyframes bobble_anim_2_kf {
-    0% {
-        transform: scale(0.6);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(0.6);
-    }
-}
-
 /* bobler SLUT */
 
 #pige_sprite {
@@ -220,27 +169,6 @@ SECTIONS [ #section ]
     width: 40vw;
     height: 40vw;
 }
-
-.pige_ryg_til {
-    animation-name: pige_ryg_til_kf;
-    animation-duration: 1s;
-    animation-timing-function: steps(8);
-    animation-iteration-count: infinite;
-}
-
-@keyframes pige_ryg_til_kf {
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: -800% 0%;
-    }
-}
-
-.pige_front {
-    background-position: 0% -100%;
-}
-
 
 #scene2 {
     overflow: hidden;
@@ -277,6 +205,78 @@ SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 CLASSES [ .class ]
 ######################################## */
 
+.bobble {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
+
+.bobble_anim_1 {
+    animation-name: bobble_anim_1_kf;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.bobble_anim_2 {
+    animation-name: bobble_anim_2_kf;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+
+}
+
+.pige_ryg_til {
+    animation-name: pige_ryg_til_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(8);
+    animation-iteration-count: infinite;
+}
+
+.pige_front {
+    background-position: 0% -100%;
+}
+
+
 /* ########################################
 KEYFRAMES [ @keyframes ]
 ######################################## */
+
+@keyframes bobble_anim_1_kf {
+    0% {
+        transform: scale(0.6);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.6);
+    }
+}
+
+@keyframes bobble_anim_2_kf {
+    0% {
+        transform: scale(0.6);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.6);
+    }
+}
+
+@keyframes pige_ryg_til_kf {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -800% 0%;
+    }
+}
