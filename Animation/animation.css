@@ -298,7 +298,7 @@ CLASSES [ .class ]
 }
 
 .pige_front {
-    background-position: 0% -100%;
+    background-position: 0% -99%;
     transform: scale(-1, 1);
 }
 
