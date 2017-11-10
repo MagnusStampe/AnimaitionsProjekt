@@ -234,10 +234,10 @@ SECTIONS [ #section ]
 
 #ansigt_container {
     position: absolute;
-    width: 50vw;
-    height: 50vw;
+    width: 65vw;
+    height: 65vw;
     left: 30%;
-
+    top: -10%;
 }
 
 #ansigt_sprite {
@@ -245,8 +245,6 @@ SECTIONS [ #section ]
     background-size: 500% 100%;
     width: 100%;
     height: 100%;
-
-
 }
 
 #a1 {
