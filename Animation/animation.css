@@ -467,14 +467,14 @@ p {
 
 p,
 li {
-    font-family: '';
+    font-family: 'Futura PT book';
 }
 
 h1,
 h3 {
-    font-family: '';
+    font-family: 'Futura PT medium';
 }
 
 p {
-    font-family: '';
+    font-family: 'Futura PT demi';
 }
