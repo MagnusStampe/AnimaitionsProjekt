@@ -269,6 +269,32 @@ SECTIONS [ #section ]
     z-index: 3;
 }
 
+#hand_container {
+    position: absolute;
+
+    width: 100vw;
+    height: 100vw;
+
+
+
+}
+
+
+#hand_sprite {
+    background-image: url(../img/sprite_hand.svg);
+
+    background-size: 600% 100%;
+
+    width: 100vw;
+    height: 100vw;
+
+
+}
+
+
+
+
+
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 ######################################## */
@@ -277,6 +303,25 @@ SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 CLASSES [ .class ]
 ######################################## */
 
+.hand_move {
+    animation-name: hand_kf;
+    animation-duration: 3s;
+    animation-timing-function: steps(6);
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+}
+
 /* ########################################
 KEYFRAMES [ @keyframes ]
+
 ######################################## */
+
+@keyframes hand_kf {
+    from {
+        background-position: 0% 0%;
+
+    }
+    to {
+        background-position: -600% 0%;
+    }
+}
