@@ -52,7 +52,7 @@ SECTIONS [ #section ]
 #bobler1 {
     width: 3.8vw;
     height: 2.55vw;
-    background-image: url("../img/bobble1.svg");
+    background-image: url("../img/bobble/bobble1.svg");
     background-size: contain;
 
     top: 52.1vw;
@@ -62,7 +62,7 @@ SECTIONS [ #section ]
 #bobler2 {
     width: 3.8vw;
     height: 2.55vw;
-    background-image: url("../img/bobble2.svg");
+    background-image: url("../img/bobble/bobble2.svg");
     background-size: contain;
 
     top: 48.4vw;
@@ -72,7 +72,7 @@ SECTIONS [ #section ]
 #bobler3 {
     width: 3.2vw;
     height: 2.5vw;
-    background-image: url("../img/bobble3.svg");
+    background-image: url("../img/bobble/bobble3.svg");
     background-size: contain;
 
     top: 42vw;
@@ -82,7 +82,7 @@ SECTIONS [ #section ]
 #bobler4 {
     width: 3.2vw;
     height: 2.1vw;
-    background-image: url("../img/bobble4.svg");
+    background-image: url("../img/bobble/bobble4.svg");
     background-size: contain;
 
     top: 38.4vw;
@@ -92,7 +92,7 @@ SECTIONS [ #section ]
 #bobler5 {
     width: 3.8vw;
     height: 2.55vw;
-    background-image: url("../img/bobble5.svg");
+    background-image: url("../img/bobble/bobble5.svg");
     top: 36.5vw;
     left: 35.8vw;
 }
@@ -100,7 +100,7 @@ SECTIONS [ #section ]
 #bobler6 {
     width: 3.8vw;
     height: 2.55vw;
-    background-image: url("../img/bobble6.svg");
+    background-image: url("../img/bobble/bobble6.svg");
     top: 36.2vw;
     left: 44.6vw;
 }
@@ -108,7 +108,7 @@ SECTIONS [ #section ]
 #bobler7 {
     width: 3.8vw;
     height: 2.55vw;
-    background-image: url("../img/bobble7.svg");
+    background-image: url("../img/bobble/bobble7.svg");
     top: 36.9vw;
     left: 59.7vw;
 }
@@ -116,7 +116,7 @@ SECTIONS [ #section ]
 #bobler8 {
     width: 3.8vw;
     height: 2.55vw;
-    background-image: url("../img/bobble8.svg");
+    background-image: url("../img/bobble/bobble8.svg");
     top: 40.6vw;
     left: 68.1vw;
 }
@@ -124,7 +124,7 @@ SECTIONS [ #section ]
 #bobler9 {
     width: 3.8vw;
     height: 2.55vw;
-    background-image: url("../img/bobble9.svg");
+    background-image: url("../img/bobble/bobble9.svg");
     top: 46.1vw;
     left: 70vw;
 }
@@ -132,7 +132,7 @@ SECTIONS [ #section ]
 #bobler10 {
     width: 4.6vw;
     height: 3.1vw;
-    background-image: url("../img/bobble10.svg");
+    background-image: url("../img/bobble/bobble10.svg");
     top: 49.6vw;
     left: 63vw;
 }
@@ -140,7 +140,7 @@ SECTIONS [ #section ]
 #bobler11 {
     width: 2.2vw;
     height: 3.5vw;
-    background-image: url("../img/bobble11.svg");
+    background-image: url("../img/bobble/bobble11.svg");
     top: 45.5vw;
     left: 61.7vw;
 }
@@ -247,6 +247,60 @@ SECTIONS [ #section ]
     height: 100%;
 
 
+}
+
+#a1 {
+    background-image: url("../img/a1.svg");
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 60%;
+    left: 20%;
+    height: 10%;
+}
+
+#a2 {
+    background-image: url("../img/a2.svg");
+    background-repeat: no-repeat;
+}
+
+#a3 {
+    background-image: url("../img/a3.svg");
+    background-repeat: no-repeat;
+}
+
+#a4 {
+    background-image: url("../img/a4.svg");
+    background-repeat: no-repeat;
+}
+
+#a5 {
+    background-image: url("../img/a5.svg");
+    background-repeat: no-repeat;
+}
+
+#a6 {
+    background-image: url("../img/a6.svg");
+    background-repeat: no-repeat;
+}
+
+#a7 {
+    background-image: url("../img/a7.svg");
+    background-repeat: no-repeat;
+}
+
+#a8 {
+    background-image: url("../img/a8.svg");
+    background-repeat: no-repeat;
+}
+
+#a9 {
+    background-image: url("../img/a9.svg");
+    background-repeat: no-repeat;
+}
+
+#a10 {
+    background-image: url("../img/a10.svg");
+    background-repeat: no-repeat;
 }
 
 #scene4 {}
