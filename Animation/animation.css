@@ -20,7 +20,7 @@ SECTIONS [ #section ]
 }
 
 #baggrund1 {
-    background-image: url("../img/baggrund1_uden_skyer_og_bobler.svg");
+    background-image: url("../img/baggrund_1_uden_skyer_og_bobler.svg");
     background-size: cover;
     width: 100%;
     height: 100%;
