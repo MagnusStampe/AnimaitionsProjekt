@@ -12,6 +12,16 @@ TAGS [ <tag> ]
 SECTIONS [ #section ]
 ######################################## */
 
+#titelbillede {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+
+    background-image: url(../img/title.svg);
+    background-size: cover;
+}
+
 #scene1 {
     overflow: hidden;
     width: 100vw;
@@ -372,6 +382,29 @@ SECTIONS [ #section ]
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 ######################################## */
+
+#titelbillede p {
+    color: #f4912d;
+    position: absolute;
+    top: 65%;
+    left: 18%;
+
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+#titelbillede button {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    left: 56.7vw;
+    top: 24.4vw;
+    padding: 1.5vw 3vw;
+
+    transform: rotate(-10deg);
+
+    font-size: 1.5em;
+}
 
 #sporgsmal button {
     background-color: #f4912d;
