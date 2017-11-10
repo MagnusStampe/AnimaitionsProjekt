@@ -354,10 +354,11 @@ SECTIONS [ #section ]
 #sporgsmal {
     position: absolute;
     top: 37%;
-    left: 7%;
+    left: 4%;
+    width: 31vw;
+
     color: #FFFFFF;
-    font-size: 2em;
-    width: 25vw;
+    font-size: 2.3em;
 }
 
 #ja {}
@@ -374,14 +375,21 @@ SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 
 #sporgsmal button {
     background-color: #f4912d;
+
+    font-family: sans-serif;
     color: #FFFFFF;
-    font-size: 1.5em;
+    font-size: 0.9em;
 
     border: none;
     border-radius: 0;
 
     padding: 2%;
     margin: 2%;
+}
+
+#sporgsmal p {
+    font-family: sans-serif;
+    color: #FFFFFF;
 }
 
 #sporgsmal button:hover {
@@ -528,7 +536,6 @@ KEYFRAMES [ @keyframes ]
 
 /* ########################################
 FONTS
-
 ######################################## */
 
 h1,
