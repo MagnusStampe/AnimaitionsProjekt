@@ -176,7 +176,7 @@ SECTIONS [ #section ]
     height: 100%;
     margin: auto;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 
 #baggrund2_2 {
@@ -186,24 +186,26 @@ SECTIONS [ #section ]
     height: 100%;
     margin: auto;
     position: absolute;
-    z-index: 4;
+    z-index: 5;
 }
 
 #hand_container {
     position: absolute;
+    width: 40vw;
+    height: 40vw;
 
-    width: 100vw;
-    height: 100vw;
+    left: 60%;
+
+    z-index: 5;
 }
 
 
 #hand_sprite {
     background-image: url(../img/sprite_hand.svg);
-
     background-size: 600% 100%;
 
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
 }
 
 #scene3 {
