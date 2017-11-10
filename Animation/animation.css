@@ -214,7 +214,7 @@ SECTIONS [ #section ]
 
 #pige_container {
     position: absolute;
-    z-index: 100;
+    z-index: 3;
     top: 16.25vw;
     left: 30vw;
     width: 40vw;
@@ -266,7 +266,7 @@ SECTIONS [ #section ]
     height: 100%;
     margin: auto;
     position: absolute;
-    z-index: 3;
+    z-index: 4;
 }
 
 #hand_container {
