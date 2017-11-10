@@ -252,10 +252,10 @@ SECTIONS [ #section ]
 #a1 {
     background-image: url("../img/a1.svg");
     background-repeat: no-repeat;
-    width: 40%;
-    height: 60%;
+    width: 100%;
+    top: 20%;
     left: 20%;
-    height: 10%;
+    height: 30%;
 }
 
 #a2 {
