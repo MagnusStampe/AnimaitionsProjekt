@@ -250,56 +250,56 @@ SECTIONS [ #section ]
 }
 
 #a1 {
-    background-image: url("../img/a1.svg");
+    background-image: url("../img/ansigter/a1.svg");
     background-repeat: no-repeat;
-    width: 100%;
-    top: 20%;
+    width: 20%;
+    top: 0%;
     left: 20%;
     height: 30%;
 }
 
 #a2 {
-    background-image: url("../img/a2.svg");
+    background-image: url("../img/ansigter/a2.svg");
     background-repeat: no-repeat;
 }
 
 #a3 {
-    background-image: url("../img/a3.svg");
+    background-image: url("../img/ansigter/a3.svg");
     background-repeat: no-repeat;
 }
 
 #a4 {
-    background-image: url("../img/a4.svg");
+    background-image: url("../img/ansigter/a4.svg");
     background-repeat: no-repeat;
 }
 
 #a5 {
-    background-image: url("../img/a5.svg");
+    background-image: url("../img/ansigter/a5.svg");
     background-repeat: no-repeat;
 }
 
 #a6 {
-    background-image: url("../img/a6.svg");
+    background-image: url("../img/ansigter/a6.svg");
     background-repeat: no-repeat;
 }
 
 #a7 {
-    background-image: url("../img/a7.svg");
+    background-image: url("../img/ansigter/a7.svg");
     background-repeat: no-repeat;
 }
 
 #a8 {
-    background-image: url("../img/a8.svg");
+    background-image: url("../img/ansigter/a8.svg");
     background-repeat: no-repeat;
 }
 
 #a9 {
-    background-image: url("../img/a9.svg");
+    background-image: url("../img/ansigter/a9.svg");
     background-repeat: no-repeat;
 }
 
 #a10 {
-    background-image: url("../img/a10.svg");
+    background-image: url("../img/ansigter/a10.svg");
     background-repeat: no-repeat;
 }
 
