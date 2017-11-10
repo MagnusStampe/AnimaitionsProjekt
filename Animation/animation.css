@@ -176,7 +176,7 @@ SECTIONS [ #section ]
     height: 100%;
     margin: auto;
     position: absolute;
-    z-index: 3;
+    z-index: 2;
 }
 
 #baggrund2_2 {
@@ -201,6 +201,7 @@ SECTIONS [ #section ]
 
 #hand_container {
     position: absolute;
+
     width: 60vw;
     height: 60vw;
 
@@ -208,11 +209,13 @@ SECTIONS [ #section ]
     top: 20%;
 
     z-index: 5;
+
 }
 
 
 #hand_sprite {
     background-image: url(../img/sprite_hand.svg);
+
     background-size: 600% 100%;
 
     width: 100%;
@@ -226,6 +229,25 @@ SECTIONS [ #section ]
     position: relative;
     background-color: #202532;
 }
+
+
+#ansigt_container {
+    position: absolute;
+
+    width: 100vw;
+    height: 100vw;
+
+}
+
+#ansigt_sprite {
+    background-image: url("SVG/sprite_ansigt.svg");
+    background-size: 500% 100%;
+    width: 100vw;
+    height: 100vw;
+
+
+}
+
 
 
 /* ########################################
@@ -277,6 +299,7 @@ CLASSES [ .class ]
 
 .pige_front {
     background-position: 0% -100%;
+    transform: scale(-1, 1);
 }
 
 .pige_front_container {
@@ -289,6 +312,15 @@ CLASSES [ .class ]
     animation-timing-function: steps(6);
     animation-fill-mode: both;
     animation-iteration-count: infinite;
+}
+
+.ansigt_move {
+    animation-name: ansigt_kf;
+    animation-duration: 1s;
+    animation-timing-function: steps(5);
+    animation-fill-mode: both;
+    animation-iteration-count: 2;
+
 }
 
 
@@ -346,5 +378,15 @@ KEYFRAMES [ @keyframes ]
     }
     to {
         background-position: -600% 0%;
+    }
+}
+
+@keyframes ansigt_kf {
+    from {
+        background-position: 0% 0%;
+
+    }
+    to {
+        background-position: -500% 0%;
     }
 }
