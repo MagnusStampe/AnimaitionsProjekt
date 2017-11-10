@@ -207,6 +207,13 @@ SECTIONS [ #section ]
     height: 100vw;
 }
 
+#scene3 {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    background-color: #202532;
+}
 
 
 /* ########################################
