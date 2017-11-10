@@ -449,3 +449,32 @@ KEYFRAMES [ @keyframes ]
         background-position: -500% 0%;
     }
 }
+
+
+/* ########################################
+FONTS
+
+######################################## */
+
+h1,
+h2,
+h3,
+li,
+ul,
+p {
+    color: black;
+}
+
+p,
+li {
+    font-family: '';
+}
+
+h1,
+h3 {
+    font-family: '';
+}
+
+p {
+    font-family: '';
+}
