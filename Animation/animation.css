@@ -189,6 +189,16 @@ SECTIONS [ #section ]
     z-index: 4;
 }
 
+#baggrund2_gennemsigtig {
+    background-image: url("../img/baggrund2_gennemsigtig.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    z-index: 4;
+}
+
 #hand_container {
     position: absolute;
 
