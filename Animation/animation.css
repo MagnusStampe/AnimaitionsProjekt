@@ -494,7 +494,7 @@ CLASSES [ .class ]
     animation-duration: 1s;
     animation-timing-function: steps(5);
     animation-fill-mode: both;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
 
 }
 
