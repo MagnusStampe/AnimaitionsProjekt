@@ -9,7 +9,6 @@ TAGS [ <tag> ]
 
 section {
     /* Kan slettes når sections harfået indhold */
-    height: 4em;
     width: 100vw;
 }
 
@@ -80,6 +79,11 @@ SECTIONS [ #section ]
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 ######################################## */
+
+#moodboard img {
+    width: 100%;
+    height: 100%;
+}
 
 /* ########################################
 CLASSES [ .class ]
