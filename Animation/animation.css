@@ -299,7 +299,14 @@ SECTIONS [ #section ]
     background-repeat: no-repeat;
 }
 
-#sporgsmal {}
+#sporgsmal {
+    position: absolute;
+    top: 37%;
+    left: 7%;
+    color: #FFFFFF;
+    font-size: 2em;
+    width: 25vw;
+}
 
 #ja {}
 
@@ -312,6 +319,22 @@ SECTIONS [ #section ]
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 ######################################## */
+
+#sporgsmal button {
+    background-color: #f4912d;
+    color: #FFFFFF;
+    font-size: 1.5em;
+
+    border: none;
+    border-radius: 0;
+
+    padding: 2%;
+    margin: 2%;
+}
+
+#sporgsmal button:hover {
+    background-color: #f6b34f;
+}
 
 /* ########################################
 CLASSES [ .class ]
