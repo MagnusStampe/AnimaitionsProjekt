@@ -466,6 +466,7 @@ SECTIONS [ #section ]
 #hand_nej_sprite {
     background-image: url(../img/hand_nej.svg);
     background-size: 300% 100%;
+    background-position: -200% 0%;
 
     width: 100%;
     height: 100%;
@@ -614,12 +615,10 @@ CLASSES [ .class ]
     background-image: url("../img/ja_spritesheet.svg");
     position: absolute;
     background-size: 200% 100%;
+}
 
-    animation-name: mobil_kf;
-    animation-duration: 2s;
-    animation-timing-function: steps(2);
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+.mobil_billede {
+    background-position: 100% 0%;
 }
 
 
@@ -693,15 +692,6 @@ KEYFRAMES [ @keyframes ]
 @keyframes puls_kf {
     50% {
         transform: scale(1.1);
-    }
-}
-
-@keyframes mobil_kf {
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: -200% 0%;
     }
 }
 

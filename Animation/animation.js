@@ -1,4 +1,5 @@
 var antalKlik = 0;
+var mobilNr = 0;
 
 //Siden loades
 
@@ -12,6 +13,7 @@ function titelScreen() {
     $("#scene2").hide();
     $("#scene3").hide();
     $("#krediteringsscene").hide();
+    $("#scene_JA").hide();
 
     $(".ansigt").hide();
 
@@ -106,5 +108,13 @@ function billedetErDelt() {
     $("#scene3").hide();
     $(".ansigt").hide();
 
-    $("#scene4").show();
+    $("#scene_JA").show();
+
+    mobilDelay();
+}
+
+function mobilDelay() {
+    $("#mobil" + mobilNr).addClass("mobil_billede");
+    mobilNr++;
+    setTimeout(mobilDelay, 1000);
 }
