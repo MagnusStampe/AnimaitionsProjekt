@@ -372,13 +372,68 @@ SECTIONS [ #section ]
     font-size: 2.3em;
 }
 
-#ja {}
+#scene_JA {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    background-color: #202532;
+}
 
-#nej {}
+#mobil1 {
+    background-image: url("../img/ja_spritesheet.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: ;
+    height: ;
+    top: ;
+    left: ;
+}
 
-#scene4 {}
+#mobil2 {
+    background-image: url("../img/ja_spritesheet.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: ;
+    height: ;
+    top: ;
+    left: ;
+}
 
-#baggrund4 {}
+#mobil3 {
+    background-image: url("../img/ja_spritesheet.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: ;
+    height: ;
+    top: ;
+    left: ;
+}
+
+#mobil4 {
+    background-image: url("../img/ja_spritesheet.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: ;
+    height: ;
+    top: ;
+    left: ;
+}
+
+#mobil5 {
+    background-image: url("../img/ja_spritesheet.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: ;
+    height: ;
+    top: ;
+    left: ;
+}
 
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
@@ -431,13 +486,6 @@ SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 }
 
 
-#scene_JA {
-    overflow: hidden;
-    width: 100vw;
-    height: 56.25vw;
-    position: relative;
-    background-color: #202532;
-}
 
 /* ########################################
 CLASSES [ .class ]
