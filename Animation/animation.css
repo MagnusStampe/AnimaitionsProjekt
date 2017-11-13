@@ -709,3 +709,24 @@ p {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
 }
+
+#klik_mobil {
+    width: 6.55vw;
+    height: 2.85vw;
+    position: absolute;
+    background-image: url(../img/start.svg);
+    background-size: cover;
+    top: 26.14vw;
+    left: 59.57vw;
+}
+
+#titel {
+    width: 22.59vw;
+    height: 11.11vw;
+    position: absolute;
+    background-image: url(../img/PrivatSnap.svg);
+    background-size: cover;
+    top: 32.1vw;
+    left: 18.4vw;
+
+}
