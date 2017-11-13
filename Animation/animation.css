@@ -4,6 +4,7 @@
 }
 
 
+
 /* ########################################
 TAGS [ <tag> ]
 ######################################## */
@@ -577,19 +578,24 @@ h3,
 li,
 ul,
 p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
     color: black;
 }
 
 p,
 li {
-    font-family: 'Futura PT book';
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
 }
 
 h1,
 h3 {
-    font-family: 'Futura PT medium';
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 p {
-    font-family: 'Futura PT demi';
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
