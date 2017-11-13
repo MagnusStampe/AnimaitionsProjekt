@@ -3,6 +3,36 @@
     padding: 0;
 }
 
+/*-------- MENU ---------- */
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #202532;
+
+}
+
+header li a {
+
+    text-align: center;
+    margin: 0 5vw 0 0;
+    color: #f1f1f1;
+    font-size: 0.8em;
+}
+
+nav {
+    padding: 10px 6px;
+    width: 100vw;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+
+header li a:hover {
+    background-color: #202532;
+}
+
 /* ########################################
 TAGS [ <tag> ]
 ######################################## */
