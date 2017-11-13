@@ -383,32 +383,32 @@ SECTIONS [ #section ]
 
 #mobil1 {
     top: 10%;
-    left: 25%;
-    transform: rotate(15deg);
+    left: 30%;
+    transform: rotate(15deg) scale(5);
 }
 
 #mobil2 {
     top: 20%;
     left: 80%;
-    transform: rotate(15deg);
+    transform: rotate(-15deg) scale(5);
 }
 
 #mobil3 {
     top: 40%;
     left: 10%;
-    transform: rotate(15deg);
+    transform: rotate(-25deg) scale(5);
 }
 
 #mobil4 {
     top: 40%;
     left: 55%;
-    transform: rotate(15deg);
+    transform: rotate(25deg) scale(5);
 }
 
 #mobil5 {
     top: 70%;
     left: 30%;
-    transform: rotate(15deg);
+    transform: rotate(5deg) scale(5);
 }
 
 /* ########################################
