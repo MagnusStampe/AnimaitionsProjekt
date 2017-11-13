@@ -4,6 +4,7 @@
 }
 
 
+
 /* ########################################
 TAGS [ <tag> ]
 ######################################## */
@@ -375,13 +376,44 @@ SECTIONS [ #section ]
     font-size: 2.3em;
 }
 
-#ja {}
+#scene_JA {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    background-color: #202532;
+}
 
-#nej {}
 
-#scene4 {}
+#mobil1 {
+    top: 10%;
+    left: 30%;
+    transform: rotate(15deg) scale(5);
+}
 
-#baggrund4 {}
+#mobil2 {
+    top: 20%;
+    left: 80%;
+    transform: rotate(-15deg) scale(5);
+}
+
+#mobil3 {
+    top: 40%;
+    left: 10%;
+    transform: rotate(-25deg) scale(5);
+}
+
+#mobil4 {
+    top: 45%;
+    left: 58%;
+    transform: rotate(25deg) scale(5);
+}
+
+#mobil5 {
+    top: 68%;
+    left: 33%;
+    transform: rotate(5deg) scale(5);
+}
 
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
@@ -432,6 +464,8 @@ SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 #sporgsmal button:hover {
     background-color: #f6b34f;
 }
+
+
 
 /* ########################################
 CLASSES [ .class ]
@@ -506,6 +540,14 @@ CLASSES [ .class ]
     animation-iteration-count: infinite;
 }
 
+.mobil {
+    width: 6.25vw;
+    height: 6.25vw;
+    background-image: url("../img/ja_spritesheet.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200% 100%;
+}
 
 /* ########################################
 KEYFRAMES [ @keyframes ]
@@ -591,19 +633,24 @@ h3,
 li,
 ul,
 p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
     color: black;
 }
 
 p,
 li {
-    font-family: 'Futura PT book';
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
 }
 
 h1,
 h3 {
-    font-family: 'Futura PT medium';
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
 }
 
 p {
-    font-family: 'Futura PT demi';
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }
