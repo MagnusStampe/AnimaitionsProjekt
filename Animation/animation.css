@@ -677,6 +677,7 @@ p {
     background-size: cover;
     top: 26.14vw;
     left: 59.57vw;
+    z-index: 30;
 }
 
 #titel {
