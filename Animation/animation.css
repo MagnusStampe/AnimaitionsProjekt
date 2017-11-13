@@ -433,7 +433,7 @@ SECTIONS [ #section ]
     top: 20%;
 }
 
-#hand_sprite {
+#hand_nej_sprite {
     background-image: url(../img/hand_nej.svg);
     background-size: 300% 100%;
     background-position: 100% 500%;
