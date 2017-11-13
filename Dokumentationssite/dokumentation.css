@@ -7,13 +7,14 @@
 
 header ul {
     list-style-type: none;
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #202532;
 
 }
 
 header li a {
-    display: block;
+
     text-align: center;
     margin: 0 5vw 0 0;
     color: #f1f1f1;
@@ -22,6 +23,8 @@ header li a {
 
 nav {
     padding: 10px 6px;
+    width: 100vw;
+
 }
 
 /* Change the link color to #111 (black) on hover */
