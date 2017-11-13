@@ -380,59 +380,35 @@ SECTIONS [ #section ]
     background-color: #202532;
 }
 
+
 #mobil1 {
-    background-image: url("../img/ja_spritesheet.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: cover;
-    width: ;
-    height: ;
     top: ;
     left: ;
+    transform: rotate(15deg);
 }
 
 #mobil2 {
-    background-image: url("../img/ja_spritesheet.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: cover;
-    width: ;
-    height: ;
     top: ;
     left: ;
+    transform: rotate(15deg);
 }
 
 #mobil3 {
-    background-image: url("../img/ja_spritesheet.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: cover;
-    width: ;
-    height: ;
     top: ;
     left: ;
+    transform: rotate(15deg);
 }
 
 #mobil4 {
-    background-image: url("../img/ja_spritesheet.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: cover;
-    width: ;
-    height: ;
     top: ;
     left: ;
+    transform: rotate(15deg);
 }
 
 #mobil5 {
-    background-image: url("../img/ja_spritesheet.svg");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: cover;
-    width: ;
-    height: ;
     top: ;
     left: ;
+    transform: rotate(15deg);
 }
 
 /* ########################################
@@ -553,9 +529,16 @@ CLASSES [ .class ]
     animation-timing-function: steps(5);
     animation-fill-mode: both;
     animation-iteration-count: infinite;
-
 }
 
+.mobil {
+    width: 6.25vw;
+    height: 6.25vw;
+    background-image: url("../img/ja_spritesheet.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 200% 100%;
+}
 
 /* ########################################
 KEYFRAMES [ @keyframes ]
