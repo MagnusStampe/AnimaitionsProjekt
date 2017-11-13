@@ -386,33 +386,33 @@ SECTIONS [ #section ]
 
 
 #mobil1 {
-    top: 10%;
-    left: 30%;
-    transform: rotate(15deg) scale(5);
+    top: 0%;
+    left: 25%;
+    transform: rotate(15deg);
 }
 
 #mobil2 {
-    top: 20%;
-    left: 80%;
-    transform: rotate(-15deg) scale(5);
+    top: 8%;
+    left: 75%;
+    transform: rotate(-15deg);
 }
 
 #mobil3 {
-    top: 40%;
-    left: 10%;
-    transform: rotate(-25deg) scale(5);
+    top: 28%;
+    left: 5%;
+    transform: rotate(-25deg);
 }
 
 #mobil4 {
-    top: 45%;
-    left: 58%;
-    transform: rotate(25deg) scale(5);
+    top: 33%;
+    left: 52%;
+    transform: rotate(25deg);
 }
 
 #mobil5 {
-    top: 68%;
-    left: 33%;
-    transform: rotate(5deg) scale(5);
+    top: 52%;
+    left: 28%;
+    transform: rotate(5deg);
 }
 
 #scene_nej {
@@ -581,8 +581,8 @@ CLASSES [ .class ]
 }
 
 .mobil {
-    width: 6.25vw;
-    height: 6.25vw;
+    width: 31.25vw;
+    height: 31.25vw;
     background-image: url("../img/ja_spritesheet.svg");
     position: absolute;
     background-size: 200% 100%;
