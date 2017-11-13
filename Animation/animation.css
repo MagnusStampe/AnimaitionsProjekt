@@ -436,7 +436,7 @@ SECTIONS [ #section ]
 #hand_nej_sprite {
     background-image: url(../img/hand_nej.svg);
     background-size: 300% 100%;
-    background-position: 100% 500%;
+    background-position: 100% 300%;
 
     width: 100%;
     height: 100%;
