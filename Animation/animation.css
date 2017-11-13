@@ -741,3 +741,30 @@ p {
     left: 18.4vw;
 
 }
+
+#krediteringsbaggrund {
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    background-image: url(../img/krediteringsbillede/_krediteringsbaggrund.svg);
+}
+
+#logo {
+    width: 41.44vw;
+    height: 29.9vw;
+    position: absolute;
+    top: 12.44vw;
+    left: 26.16vw;
+    background-image: url(../img/krediteringsbillede/logo.svg);
+    background-size: cover;
+}
+
+#payoff2 {
+    width: 46.31vw;
+    height: 2.42vw;
+    position: absolute;
+    top: 41.03vw;
+    left: 42.32vw;
+    background-image: url(../img/krediteringsbillede/payoff2.svg);
+    background-size: cover;
+}
