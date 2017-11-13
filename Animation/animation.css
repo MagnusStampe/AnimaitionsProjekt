@@ -544,9 +544,14 @@ CLASSES [ .class ]
     width: 6.25vw;
     height: 6.25vw;
     background-image: url("../img/ja_spritesheet.svg");
-    background-repeat: no-repeat;
     position: absolute;
     background-size: 200% 100%;
+
+    animation-name: mobil_kf;
+    animation-duration: 2s;
+    animation-timing-function: steps(2);
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
 }
 
 /* ########################################
@@ -619,6 +624,15 @@ KEYFRAMES [ @keyframes ]
 @keyframes puls_kf {
     50% {
         transform: scale(1.1);
+    }
+}
+
+@keyframes mobil_kf {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: -200% 0%;
     }
 }
 
