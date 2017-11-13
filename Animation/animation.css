@@ -426,11 +426,11 @@ SECTIONS [ #section ]
 #hand_nej_container {
     position: absolute;
 
-    width: 60vw;
-    height: 60vw;
+    width: 147vw;
+    height: 96vw;
 
-    left: 40%;
-    top: 20%;
+    left: 33%;
+    top: -2%;
 }
 
 #hand_nej_sprite {
