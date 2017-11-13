@@ -415,7 +415,7 @@ SECTIONS [ #section ]
     transform: rotate(5deg);
 }
 
-#scene_nej {
+#scene_NEJ {
     overflow: hidden;
     width: 100vw;
     height: 56.25vw;

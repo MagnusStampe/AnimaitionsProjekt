@@ -13,6 +13,7 @@ function titelScreen() {
     $("#scene2").hide();
     $("#scene3").hide();
     $("#scene_JA").hide();
+    $("#scene_NEJ").hide();
 
     $(".ansigt").hide();
 
