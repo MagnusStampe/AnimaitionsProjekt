@@ -162,6 +162,7 @@ SECTIONS [ #section ]
     background-size: 800% 200%;
     width: 100%;
     height: 100%;
+    background-position: -700% 0%;
 }
 
 #pige_container {
@@ -225,6 +226,7 @@ SECTIONS [ #section ]
 #hand_sprite {
     background-image: url(../img/sprite_hand.svg);
     background-size: 600% 100%;
+    background-position: 100% 500%;
 
     width: 100%;
     height: 100%;
@@ -251,6 +253,8 @@ SECTIONS [ #section ]
 #ansigt_sprite {
     background-image: url("../img/sprite_ansigt.svg");
     background-size: 500% 100%;
+    background-position: 300% 100%;
+
     width: 100%;
     height: 100%;
 }
@@ -464,7 +468,7 @@ CLASSES [ .class ]
     animation-name: pige_ryg_til_kf;
     animation-duration: 1s;
     animation-timing-function: steps(8);
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
 }
 
@@ -485,17 +489,21 @@ CLASSES [ .class ]
     animation-name: hand_kf;
     animation-duration: 3s;
     animation-timing-function: steps(6);
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 .ansigt_move {
     animation-name: ansigt_kf;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: steps(5);
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 
+}
+
+.puls {
+    animation-name: puls_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -563,6 +571,12 @@ KEYFRAMES [ @keyframes ]
     }
     to {
         background-position: -500% 0%;
+    }
+}
+
+@keyframes puls_kf {
+    50% {
+        transform: scale(1.1);
     }
 }
 
