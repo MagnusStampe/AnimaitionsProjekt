@@ -376,6 +376,36 @@ SECTIONS [ #section ]
     font-size: 2.3em;
 }
 
+#del_billede {
+    width: 23.81vw;
+    height: 3.11vw;
+    position: absolute;
+    background-image: ;
+    background-size: cover;
+    top: 17.61vw;
+    left: 10.05vw;
+}
+
+#ja {
+    width: 25.25vw;
+    height: 22.3vw;
+    position: absolute;
+    background-image: ;
+    background-size: cover;
+    top: 25.625vw;
+    left: -7.19vw;
+}
+
+#nej {
+    width: 38.13vw;
+    height: 35.23vw;
+    position: absolute;
+    background-image: ;
+    background-size: cover;
+    top: 25.625vw;
+    left: -3.86vw;
+}
+
 #scene_JA {
     overflow: hidden;
     width: 100vw;
