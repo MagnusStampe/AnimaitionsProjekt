@@ -430,6 +430,15 @@ SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
     background-color: #f6b34f;
 }
 
+
+#scene_JA {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    background-color: #202532;
+}
+
 /* ########################################
 CLASSES [ .class ]
 ######################################## */
