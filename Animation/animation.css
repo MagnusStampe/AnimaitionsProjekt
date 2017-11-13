@@ -400,14 +400,14 @@ SECTIONS [ #section ]
 }
 
 #mobil4 {
-    top: 40%;
-    left: 55%;
+    top: 45%;
+    left: 58%;
     transform: rotate(25deg) scale(5);
 }
 
 #mobil5 {
-    top: 70%;
-    left: 30%;
+    top: 68%;
+    left: 33%;
     transform: rotate(5deg) scale(5);
 }
 
