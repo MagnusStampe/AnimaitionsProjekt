@@ -677,6 +677,16 @@ KEYFRAMES [ @keyframes ]
     }
 }
 
+@keyframes hand_nej_kf {
+    from {
+        background-position: 0% 0%;
+
+    }
+    to {
+        background-position: -300% 0%;
+    }
+}
+
 
 /* ########################################
 FONTS
@@ -718,6 +728,7 @@ p {
     background-size: cover;
     top: 26.14vw;
     left: 59.57vw;
+    z-index: 30;
 }
 
 #titel {
