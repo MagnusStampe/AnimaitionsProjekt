@@ -239,7 +239,7 @@ SECTIONS [ #section ]
     width: 100vw;
     height: 56.25vw;
     position: relative;
-    background-color: #202532;
+    background-color: #e9ebec;
 }
 
 
@@ -366,44 +366,40 @@ SECTIONS [ #section ]
     left: -29%;
 }
 
-#sporgsmal {
-    position: absolute;
-    top: 37%;
-    left: 4%;
-    width: 31vw;
-
-    color: #FFFFFF;
-    font-size: 2.3em;
-}
-
 #del_billede {
     width: 23.81vw;
     height: 3.11vw;
     position: absolute;
-    background-image: ;
+    background-image: url(../img/del_billede.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     top: 17.61vw;
     left: 10.05vw;
+    z-index: 2;
+
 }
 
 #ja {
     width: 25.25vw;
     height: 22.3vw;
     position: absolute;
-    background-image: ;
+    background-image: url(../img/ja.svg);
     background-size: cover;
     top: 25.625vw;
     left: -7.19vw;
+    z-index: 30;
+
 }
 
 #nej {
     width: 38.13vw;
     height: 35.23vw;
     position: absolute;
-    background-image: ;
+    background-image: url(../img/nej.svg);
     background-size: cover;
     top: 25.625vw;
     left: -3.86vw;
+    z-index: 30;
 }
 
 #scene_JA {
