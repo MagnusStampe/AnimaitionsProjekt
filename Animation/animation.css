@@ -376,6 +376,36 @@ SECTIONS [ #section ]
     font-size: 2.3em;
 }
 
+#del_billede {
+    width: 23.81vw;
+    height: 3.11vw;
+    position: absolute;
+    background-image: ;
+    background-size: cover;
+    top: 17.61vw;
+    left: 10.05vw;
+}
+
+#ja {
+    width: 25.25vw;
+    height: 22.3vw;
+    position: absolute;
+    background-image: ;
+    background-size: cover;
+    top: 25.625vw;
+    left: -7.19vw;
+}
+
+#nej {
+    width: 38.13vw;
+    height: 35.23vw;
+    position: absolute;
+    background-image: ;
+    background-size: cover;
+    top: 25.625vw;
+    left: -3.86vw;
+}
+
 #scene_JA {
     overflow: hidden;
     width: 100vw;
@@ -728,4 +758,31 @@ p {
     top: 32.1vw;
     left: 18.4vw;
 
+}
+
+#krediteringsbaggrund {
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    background-image: url(../img/krediteringsbillede/_krediteringsbaggrund.svg);
+}
+
+#logo {
+    width: 41.44vw;
+    height: 29.9vw;
+    position: absolute;
+    top: 12.44vw;
+    left: 26.16vw;
+    background-image: url(../img/krediteringsbillede/logo.svg);
+    background-size: cover;
+}
+
+#payoff2 {
+    width: 46.31vw;
+    height: 2.42vw;
+    position: absolute;
+    top: 41.03vw;
+    left: 42.32vw;
+    background-image: url(../img/krediteringsbillede/payoff2.svg);
+    background-size: cover;
 }
