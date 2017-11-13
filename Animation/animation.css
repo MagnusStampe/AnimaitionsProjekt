@@ -415,6 +415,39 @@ SECTIONS [ #section ]
     transform: rotate(5deg) scale(5);
 }
 
+#scene_nej {
+    overflow: hidden;
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+    background-color: #e9eced;
+}
+
+#hand_nej_container {
+    position: absolute;
+
+    width: 60vw;
+    height: 60vw;
+
+    left: 40%;
+    top: 20%;
+}
+
+#hand_sprite {
+    background-image: url(../img/hand_nej.svg);
+    background-size: 300% 100%;
+    background-position: 100% 500%;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 ######################################## */
@@ -526,6 +559,13 @@ CLASSES [ .class ]
     animation-iteration-count: 1;
 }
 
+.hand_nej_move {
+    animation-name: hand_nej_kf;
+    animation-duration: 3s;
+    animation-timing-function: steps(3);
+    animation-iteration-count: 1;
+}
+
 .ansigt_move {
     animation-name: ansigt_kf;
     animation-duration: 2s;
@@ -553,6 +593,7 @@ CLASSES [ .class ]
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
 }
+
 
 /* ########################################
 KEYFRAMES [ @keyframes ]
