@@ -15,7 +15,7 @@ function titelScreen() {
     $(".ansigt").hide();
 
 
-    $("#titelbillede button").on("click", prolog);
+    $("#klik_mobil").on("click", prolog);
 }
 
 function prolog() {
