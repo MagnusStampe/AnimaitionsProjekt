@@ -115,5 +115,19 @@ function billedetErDelt() {
 function mobilDelay() {
     $("#mobil" + mobilNr).addClass("mobil_billede");
     mobilNr++;
-    setTimeout(mobilDelay, 1000);
+
+    if (mobilNr >= 7) {
+        //Krediteringsbillde?
+    } else {
+        setTimeout(mobilDelay, 1000);
+    }
+}
+
+//Venstre ben
+
+function billedetDelesIkke() {
+    $("#scene3").hide();
+    $("#scene_NEJ").show();
+
+    $("#hand_nej_sprite").addClass("hand_nej_move");
 }
