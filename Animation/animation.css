@@ -389,18 +389,18 @@ SECTIONS [ #section ]
 
 #mobil2 {
     top: 20%;
-    left: 70%;
+    left: 80%;
     transform: rotate(15deg);
 }
 
 #mobil3 {
-    top: 70%;
+    top: 40%;
     left: 10%;
     transform: rotate(15deg);
 }
 
 #mobil4 {
-    top: 60%;
+    top: 40%;
     left: 55%;
     transform: rotate(15deg);
 }
