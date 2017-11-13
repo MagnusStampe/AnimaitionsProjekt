@@ -385,6 +385,7 @@ SECTIONS [ #section ]
     position: absolute;
     background-image: url(../img/ja.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     top: 25.625vw;
     left: -7.19vw;
     z-index: 31;
@@ -397,6 +398,7 @@ SECTIONS [ #section ]
     position: absolute;
     background-image: url(../img/nej.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     top: 25.625vw;
     left: -3.86vw;
     z-index: 30;
