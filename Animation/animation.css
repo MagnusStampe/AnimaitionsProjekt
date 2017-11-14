@@ -366,6 +366,18 @@ SECTIONS [ #section ]
     left: -29%;
 }
 
+#klik_og_del {
+    width: 41.44vw;
+    height: 16.7vw;
+    position: absolute;
+    background-image: url(../img/klik_og_del.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: scale(0.7);
+    top: 15vw;
+    left: 21vw;
+}
+
 #del_billede {
     width: 23.81vw;
     height: 3.11vw;
