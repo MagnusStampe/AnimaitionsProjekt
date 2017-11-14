@@ -13,6 +13,7 @@ function titelScreen() {
     $("#scene2").hide();
     $("#scene3").hide();
     $("#krediteringsscene").hide();
+    $("#payoff_1").hide();
     $("#scene_JA").hide();
     $("#scene_NEJ").hide();
 
@@ -124,7 +125,7 @@ function mobilDelay() {
     mobilNr++;
 
     if (mobilNr >= 7) {
-        //Krediteringsbillde?
+        payoff1();
     } else {
         setTimeout(mobilDelay, 1000);
     }
@@ -137,12 +138,38 @@ function billedetDelesIkke() {
     $("#scene_NEJ").show();
 
     $("#hand_nej_sprite").addClass("hand_nej_move");
+
+    setTimeout(payoff1, 3500);
 }
 
 
+//Payoff1
+
+function payoff1() {
+    $("#scene_NEJ").hide();
+    $("#hand_nej_sprite").removeClass("hand_nej_move");
+
+    $("#payoff_1").show();
+
+    setTimeout(krediteringsbillede, 4000);
+}
+
 //Krediteringsbillede m. payoff2
 
-/*function krediteringsbillede() {
-    $("#krediteringsscene").show();
+function logo() {
+    $("#logo").show();
 
-}*/
+    setTimeout(krediteringsbillede, 2000);
+}
+
+function krediteringsbillede() {
+    $("#krediteringsbaggrund").addClass("fade_in");
+    $("#krediteringsbaggrund").on("animationend", payoff2);
+
+}
+
+function payoff2() {
+    $("#krediteringsbaggrund").off("animationend", payoff2);
+    $("#krediteringsbaggrund").removeClass("fade_in");
+    $("#payoff2").show();
+}
