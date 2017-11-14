@@ -753,6 +753,7 @@ p {
     position: absolute;
     background-image: url(../img/PrivatSnap.svg);
     background-size: cover;
+    background-repeat: no-repeat;
     top: 32.1vw;
     left: 18.4vw;
 
@@ -784,29 +785,12 @@ p {
 }
 
 #payoff2 {
-    width: 29.98vw;
-    height: 5.4vw;
+    width: 31vw;
+    height: 5.5vw;
     position: absolute;
-    top: 42vw;
-    left: 38.56vw;
+    top: 37.6vw;
+    left: 42.1vw;
     background-image: url(../img/krediteringsbillede/payoff2.svg);
-    background-size: cover;
-}
-
-.fade_in {
-    animation-name: fade_in_kf;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-delay: 2s;
-}
-
-@keyframes fade_in_kf {
-    0% {
-        opacity: 0%;
-    }
-    100% {
-        opacity: 100%;
-    }
+    background-size: contain;
+    background-repeat: no-repeat;
 }
