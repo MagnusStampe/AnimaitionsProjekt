@@ -84,6 +84,24 @@ SECTIONS [ #section ]
     background-color: white;
 }
 
+.p1,
+.p2 {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+    background-color: #E9ECED;
+
+}
+
+.p1 .text,
+.p2 .text {
+    flex-basis: 375px;
+    flex-grow: 2;
+
+}
+
 
 #moodboard {
     background-color: #FFFFFF;
