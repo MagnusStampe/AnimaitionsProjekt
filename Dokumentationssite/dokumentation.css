@@ -9,7 +9,6 @@ header ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    background-color: #202532;
 
 }
 
@@ -29,6 +28,8 @@ header li a {
 
 nav {
     width: 100vw;
+    height: 6vw;
+    background-color: #202532;
 }
 
 /* Change the link color to #111 (black) on hover */
