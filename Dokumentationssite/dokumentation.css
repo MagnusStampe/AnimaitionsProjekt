@@ -43,7 +43,8 @@ img {
 
 section {
     /* Kan slettes når sections har fået indhold */
-    width: 100vw;
+    width: 90vw;
+    margin: 5vw auto;
 }
 
 /* ########################################
