@@ -138,3 +138,11 @@ function billedetDelesIkke() {
 
     $("#hand_nej_sprite").addClass("hand_nej_move");
 }
+
+
+//Krediteringsbillede m. payoff2
+
+function krediteringsbillede() {
+    $("#krediteringsscene").show();
+
+}
