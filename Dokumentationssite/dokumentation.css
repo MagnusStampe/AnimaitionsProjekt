@@ -37,15 +37,24 @@ header li a:hover {
 TAGS [ <tag> ]
 ######################################## */
 
+body {
+    background-color: #f1f1f1;
+}
+
 img {
     width: 100%;
 }
 
 section {
     /* Kan slettes når sections har fået indhold */
-    width: 90vw;
+    width: 80vw;
     margin: 5vw auto;
+    padding: 3vw;
+
+    border-radius: 5vw;
 }
+
+
 
 /* ########################################
 SECTIONS [ #section ]
