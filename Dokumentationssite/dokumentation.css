@@ -110,15 +110,31 @@ SECTIONS [ #section ]
 
 #assets img {
     width: 10vw;
+    overflow: hidden;
 }
+
+#assets img:hover {
+    width: 20vw;
+}
+
 
 
 #assets .sprite img {
     width: 60vw;
 }
 
+#assets .sprite img:hover {
+    width: 90vw;
+}
+
 #assets .baggrund img {
     width: 30vw;
+}
+
+
+#assets .baggrund img:hover {
+    width: 50vw;
+
 }
 
 #test {
