@@ -20,7 +20,11 @@ header li {
 }
 
 header li a {
+<<<<<<< HEAD
 
+=======
+    padding: 10px 6px;
+>>>>>>> origin/master
     text-align: center;
     color: #f1f1f1;
     font-size: 0.9vw;
@@ -30,7 +34,6 @@ header li a {
 
 nav {
     width: 100vw;
-
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -111,23 +114,17 @@ SECTIONS [ #section ]
 }
 
 #assets img {
-
     width: 10vw;
-
 }
 
 .assets :hover {}
 
 #assets .sprite img {
     width: 60vw;
-
-
 }
 
 #assets .baggrund img {
     width: 30vw;
-
-
 }
 
 #test {
