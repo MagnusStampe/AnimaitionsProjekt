@@ -13,13 +13,19 @@ header ul {
 
 }
 
+header li {
+    width: 10vw;
+    height: 2vw;
+    padding: 0.5vw 1vw;
+}
+
 header li a {
 
-    padding: 10px 6px;
     text-align: center;
-    margin: 0 5vw 0 0;
     color: #f1f1f1;
-    font-size: 0.8em;
+    font-size: 0.9vw;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 nav {
@@ -29,8 +35,8 @@ nav {
 
 /* Change the link color to #111 (black) on hover */
 
-header li a:hover {
-    background-color: #202532;
+header li:hover {
+    background-color: #1f1f1f;
 }
 
 /* ########################################
