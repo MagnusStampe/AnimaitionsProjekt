@@ -106,12 +106,17 @@ function billedetErDelt() {
 
     $(".ansigt").removeClass("puls");
 
-    $("#scene3").hide();
-    $(".ansigt").hide();
+    if (antalKlik == 0) {
+        billedetDelesIkke();
+    } else {
+        $("#scene3").hide();
+        $(".ansigt").hide();
 
-    $("#scene_JA").show();
+        $("#scene_JA").show();
 
-    mobilDelay();
+        mobilDelay();
+
+    }
 }
 
 function mobilDelay() {
