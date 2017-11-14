@@ -134,7 +134,7 @@ function mobilDelay() {
     $("#mobil_lyd")[0].play();
 
     if (mobilNr >= 6) {
-        setTimeout(payoff1, 5000);
+        setTimeout(payoff1, 6000);
     } else {
         setTimeout(mobilDelay, 1000);
     }
