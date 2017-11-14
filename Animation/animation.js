@@ -12,7 +12,9 @@ function titelScreen() {
     $("#scene1").hide();
     $("#scene2").hide();
     $("#scene3").hide();
-    $("#krediteringsscene").hide();
+    $("#krediteringsbaggrund").fadeOut(1);
+    $("#logo").hide();
+    $("#payoff2").hide();
     $("#payoff_1").hide();
     $("#scene_JA").hide();
     $("#scene_NEJ").hide();
@@ -82,7 +84,7 @@ function billedetDeles() {
 
     //Timer lyd
 
-    hvorMangeSendesBilledetTil()
+    hvorMangeSendesBilledetTil();
 }
 
 function hvorMangeSendesBilledetTil() {
@@ -125,7 +127,7 @@ function mobilDelay() {
     mobilNr++;
 
     if (mobilNr >= 7) {
-        payoff1();
+        setTimeout(payoff1, 2000);
     } else {
         setTimeout(mobilDelay, 1000);
     }
@@ -147,11 +149,13 @@ function billedetDelesIkke() {
 
 function payoff1() {
     $("#scene_NEJ").hide();
+    $("#scene_JA").hide();
+
     $("#hand_nej_sprite").removeClass("hand_nej_move");
 
     $("#payoff_1").show();
 
-    setTimeout(krediteringsbillede, 4000);
+    setTimeout(logo, 8000);
 }
 
 //Krediteringsbillede m. payoff2
@@ -159,17 +163,16 @@ function payoff1() {
 function logo() {
     $("#logo").show();
 
-    setTimeout(krediteringsbillede, 2000);
+    setTimeout(krediteringsbillede, 1000);
 }
 
 function krediteringsbillede() {
-    $("#krediteringsbaggrund").addClass("fade_in");
-    $("#krediteringsbaggrund").on("animationend", payoff2);
+    $("#krediteringsbaggrund").fadeIn(1000);
+
+    setTimeout(payoff2, 2000);
 
 }
 
 function payoff2() {
-    $("#krediteringsbaggrund").off("animationend", payoff2);
-    $("#krediteringsbaggrund").removeClass("fade_in");
     $("#payoff2").show();
 }
