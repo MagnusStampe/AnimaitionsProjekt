@@ -54,7 +54,7 @@ function billedeSendes() {
 
     $("#scene1").hide();
     $("#scene2").show();
-    $("#mobil_lyd").[0].play();
+    $("#mobil_lyd")[0].play();
     $("#hand_sprite").addClass("hand_move");
 
     $("#hand_sprite").on("animationend", billedetErAabnet);
