@@ -137,7 +137,7 @@ function billedetDelesIkke() {
 
 //Krediteringsbillede m. payoff2
 
-function krediteringsbillede() {
+/*function krediteringsbillede() {
     $("#krediteringsscene").show();
 
-}
+}*/
