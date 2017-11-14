@@ -14,7 +14,7 @@ function titelScreen() {
     $("#scene3").hide();
     $("#krediteringsbaggrund").fadeOut(1);
     $("#logo").hide();
-    $("#payoff2").hide();
+    $("#payoff2").fadeOut(1);
     $("#payoff_1").hide();
     $("#scene_JA").hide();
     $("#scene_NEJ").hide();
@@ -31,6 +31,9 @@ function prolog() {
     console.log("prolog");
 
     $("#titelbillede").hide();
+
+    $("#baggrundslyd")[0].play();
+    $("#baggrundslyd")[0].volume = 0.05;
     $("#scene1").show();
 
     $("#pige_sprite").addClass("pige_ryg_til");
@@ -48,7 +51,7 @@ function billedeTages() {
     $("#blitz")[0].pause();
     console.log("billedeTages");
 
-    setTimeout(billedeSendes, 1000);
+    setTimeout(billedeSendes, 1500);
 
 }
 
@@ -79,15 +82,15 @@ function billedetErAabnet() {
 
 //Højre ben
 function billedetDeles() {
-    $("#ja").on("click", billedetDeles);
+    $("#ja").off("click", billedetDeles);
 
     console.log("billedetDeles");
 
     $("#sporgsmal").hide();
 
-    setTimeout(billedetErDelt, 7000)
-
-    //Timer lyd
+    $("#timerlyd")[0].play();
+    $("#timerlyd")[0].volume = 1;
+    $("#timerlyd").on("ended", billedetErDelt);
 
     hvorMangeSendesBilledetTil();
 }
@@ -183,5 +186,5 @@ function krediteringsbillede() {
 }
 
 function payoff2() {
-    $("#payoff2").show();
+    $("#payoff2").fadeIn(1000);
 }
