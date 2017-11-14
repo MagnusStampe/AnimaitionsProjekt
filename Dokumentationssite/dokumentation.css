@@ -13,24 +13,28 @@ header ul {
 
 }
 
-header li a {
+header li {
+    width: 10vw;
+    height: 2vw;
+    padding: 0.5vw 1vw;
+}
 
-    padding: 10px 6px;
+header li a {
     text-align: center;
-    margin: 0 5vw 0 0;
     color: #f1f1f1;
-    font-size: 0.8em;
+    font-size: 0.9vw;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
 nav {
     width: 100vw;
-
 }
 
 /* Change the link color to #111 (black) on hover */
 
-header li a:hover {
-    background-color: #202532;
+header li:hover {
+    background-color: #1f1f1f;
 }
 
 /* ########################################
@@ -105,22 +109,16 @@ SECTIONS [ #section ]
 }
 
 #assets img {
-
     width: 10vw;
-
 }
 
 
 #assets .sprite img {
     width: 60vw;
-
-
 }
 
 #assets .baggrund img {
     width: 30vw;
-
-
 }
 
 #test {

@@ -758,6 +758,14 @@ p {
 
 }
 
+#payoff_1 {
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+    background-image: url(../img/payoff1.svg);
+    background-size: cover;
+}
+
 #krediteringsbaggrund {
     width: 100vw;
     height: 56.25vw;
@@ -783,4 +791,22 @@ p {
     left: 38.56vw;
     background-image: url(../img/krediteringsbillede/payoff2.svg);
     background-size: cover;
+}
+
+.fade_in {
+    animation-name: fade_in_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes fade_in_kf {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
