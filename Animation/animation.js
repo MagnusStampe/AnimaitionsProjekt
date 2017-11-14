@@ -60,7 +60,7 @@ function billedeSendes() {
     $("#mobil_lyd")[0].play();
     $("#hand_sprite").addClass("hand_move");
 
-    setTimeout(billedetErAabnet, 7000);
+    setTimeout(billedetErAabnet, 7500);
 }
 
 function billedetErAabnet() {
@@ -178,7 +178,7 @@ function logo() {
 function krediteringsbillede() {
     $("#krediteringsbaggrund").fadeIn(1000);
 
-    setTimeout(payoff2, 2000);
+    setTimeout(payoff2, 2500);
 
 }
 
