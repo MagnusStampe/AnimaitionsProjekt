@@ -110,7 +110,6 @@ SECTIONS [ #section ]
 
 }
 
-.assets :hover {}
 
 #assets .sprite img {
     width: 60vw;
