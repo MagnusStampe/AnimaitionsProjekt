@@ -18,7 +18,7 @@ function titelScreen() {
     $("#payoff_1").hide();
     $("#scene_JA").hide();
     $("#scene_NEJ").hide();
-
+    $("#klik_og_del").hide();
     $(".ansigt").hide();
 
 
@@ -92,6 +92,7 @@ function hvorMangeSendesBilledetTil() {
 
     $(".ansigt").show();
     $(".ansigt").addClass("puls");
+    $("#klik_og_del").show();
 
     $(".ansigt").on("click", ansigtKlik);
 }
