@@ -43,7 +43,7 @@ TAGS [ <tag> ]
 ######################################## */
 
 body {
-    background-color: #f1f1f1;
+    background-color: #698C9E;
 }
 
 img {
@@ -66,47 +66,48 @@ SECTIONS [ #section ]
 ######################################## */
 
 #gruppe {
-    background-color: blue;
+    background-color: #E9ECED;
 }
 
 #animation {
-    background-color: red;
+    background-color: #FFFFFF;
 }
 
 #historie {
-    background-color: white;
+    background-color: #E9ECED;
 }
 
 #storyboard_flowchart {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 #persona {
-    background-color: white;
+    background-color: #E9ECED;
 }
 
 #moodboard {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 #styletile {
-    background-color: white;
+    background-color: #E9ECED;
 }
 
 #scener_karaktere {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 #layoutdiagram {
-    background-color: pink;
+    background-color: #E9ECED;
 }
 
 #sekvensdiagram {
-    background-color: skyblue;
+    background-color: #FFFFFF;
 }
 
+
 #assets {
-    background-color: #4d4c4c;
+    background-color: #E9ECED;
 }
 
 #assets img {
@@ -139,19 +140,19 @@ SECTIONS [ #section ]
 }
 
 #test {
-    background-color: turquoise;
+    background-color: #FFFFFF;
 }
 
 #stand {
-    background-color: yellow;
+    background-color: #E9ECED;
 }
 
 #trello_backlog {
-    background-color: purple;
+    background-color: #FFFFFF;
 }
 
 #burndown {
-    background-color: orange;
+    background-color: #E9ECED;
 }
 
 /* ########################################
