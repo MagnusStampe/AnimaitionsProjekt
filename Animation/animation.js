@@ -36,15 +36,17 @@ function prolog() {
     $("#pige_sprite").addClass("pige_ryg_til");
 
     //Skal erstattes med når lyden er færdig
-    $("#pige_sprite").on("animationend", billedeTages);
+    $("#blitz")[0].play();
+    $("#blitz")[0].volume(1);
+    $("#blitz").on("ended", billedeTages);
 }
 
 function billedeTages() {
-    $("#pige_sprite").off("animationend", billedeTages);
-
+    $("#blitz")[0].pause();
     console.log("billedeTages");
 
-    billedeSendes()
+    setTimeout(billedeSendes, 2500);
+
 }
 
 function billedeSendes() {
@@ -52,7 +54,7 @@ function billedeSendes() {
 
     $("#scene1").hide();
     $("#scene2").show();
-
+    $("#mobil_lyd").[0].play();
     $("#hand_sprite").addClass("hand_move");
 
     $("#hand_sprite").on("animationend", billedetErAabnet);
