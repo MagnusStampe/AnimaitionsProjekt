@@ -15,6 +15,7 @@ header ul {
 
 header li a {
 
+    padding: 10px 6px;
     text-align: center;
     margin: 0 5vw 0 0;
     color: #f1f1f1;
@@ -22,7 +23,6 @@ header li a {
 }
 
 nav {
-    padding: 10px 6px;
     width: 100vw;
 
 }
@@ -37,8 +37,12 @@ header li a:hover {
 TAGS [ <tag> ]
 ######################################## */
 
+img {
+    width: 100%;
+}
+
 section {
-    /* Kan slettes når sections harfået indhold */
+    /* Kan slettes når sections har fået indhold */
     width: 100vw;
 }
 
