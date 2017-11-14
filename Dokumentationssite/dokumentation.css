@@ -101,7 +101,27 @@ SECTIONS [ #section ]
 }
 
 #assets {
-    background-color: darkred;
+    background-color: #4d4c4c;
+}
+
+#assets img {
+
+    width: 10vw;
+
+}
+
+.assets :hover {}
+
+#assets .sprite img {
+    width: 60vw;
+
+
+}
+
+#assets .baggrund img {
+    width: 30vw;
+
+
 }
 
 #test {
