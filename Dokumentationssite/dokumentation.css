@@ -60,7 +60,9 @@ section {
 SECTIONS [ #section ]
 ######################################## */
 
-#gruppe {}
+#gruppe {
+    background-color: blue;
+}
 
 #animation {
     background-color: red;
