@@ -14,7 +14,6 @@ header ul {
 }
 
 header li a {
-
     padding: 10px 6px;
     text-align: center;
     margin: 0 5vw 0 0;
@@ -24,7 +23,6 @@ header li a {
 
 nav {
     width: 100vw;
-
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -105,23 +103,17 @@ SECTIONS [ #section ]
 }
 
 #assets img {
-
     width: 10vw;
-
 }
 
 .assets :hover {}
 
 #assets .sprite img {
     width: 60vw;
-
-
 }
 
 #assets .baggrund img {
     width: 30vw;
-
-
 }
 
 #test {
