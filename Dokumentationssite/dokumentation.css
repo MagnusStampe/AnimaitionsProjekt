@@ -82,8 +82,42 @@ SECTIONS [ #section ]
 }
 
 #persona {
-    background-color: #E9ECED;
+<<<<<<< HEAD
+    background-color: white;
+
 }
+
+.p1,
+.p2 {
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+=======
+    background-color: #E9ECED;
+>>>>>>> origin/master
+}
+
+.p1 .text,
+.p2 .text {
+    flex-basis: 375px;
+    flex-grow: 2;
+
+}
+
+
+.p1 .img,
+.p2 .img {
+    flex-basis: 375px;
+    flex-grow: 1;
+
+    width: 50%;
+
+
+}
+
+
 
 #moodboard {
     background-color: #FFFFFF;
