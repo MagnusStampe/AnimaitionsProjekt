@@ -785,11 +785,12 @@ p {
 }
 
 #payoff2 {
-    width: 29.98vw;
-    height: 5.4vw;
+    width: 31vw;
+    height: 5.5vw;
     position: absolute;
-    top: 38.56vw;
+    top: 37.6vw;
     left: 42.1vw;
     background-image: url(../img/krediteringsbillede/payoff2.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
