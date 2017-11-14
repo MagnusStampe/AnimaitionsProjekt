@@ -82,7 +82,7 @@ SECTIONS [ #section ]
 }
 
 #persona {
-<<<<<<< HEAD
+
     background-color: white;
 
 }
@@ -94,9 +94,8 @@ SECTIONS [ #section ]
     flex-wrap: wrap;
 
 
-=======
-    background-color: #E9ECED;
->>>>>>> origin/master
+    =======background-color: #E9ECED;
+
 }
 
 .p1 .text,
