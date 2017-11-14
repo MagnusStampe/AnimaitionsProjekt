@@ -78,7 +78,7 @@ function billedetDeles() {
 
     $("#sporgsmal").hide();
 
-    setTimeout(billedetErDelt, 5000)
+    setTimeout(billedetErDelt, 7000)
 
     //Timer lyd
 
