@@ -1,5 +1,5 @@
 var antalKlik = 0;
-var mobilNr = 0;
+var mobilNr = 1;
 
 //Siden loades
 
@@ -34,18 +34,21 @@ function prolog() {
     $("#scene1").show();
 
     $("#pige_sprite").addClass("pige_ryg_til");
+    setTimeout(blitz, 700);
+}
 
-    //Skal erstattes med når lyden er færdig
+function blitz() {
     $("#blitz")[0].play();
-    $("#blitz")[0].volume(1);
-    $("#blitz").on("ended", billedeTages);
+    $("#blitz")[0].volume = 1;
+
+    setTimeout(billedeTages, 1500);
 }
 
 function billedeTages() {
     $("#blitz")[0].pause();
     console.log("billedeTages");
 
-    setTimeout(billedeSendes, 2500);
+    setTimeout(billedeSendes, 1000);
 
 }
 
@@ -57,7 +60,7 @@ function billedeSendes() {
     $("#mobil_lyd")[0].play();
     $("#hand_sprite").addClass("hand_move");
 
-    $("#hand_sprite").on("animationend", billedetErAabnet);
+    setTimeout(billedetErAabnet, 7000);
 }
 
 function billedetErAabnet() {
@@ -120,7 +123,7 @@ function billedetErDelt() {
 
         $("#scene_JA").show();
 
-        mobilDelay();
+        setTimeout(mobilDelay, 1000);
 
     }
 }
@@ -128,13 +131,16 @@ function billedetErDelt() {
 function mobilDelay() {
     $("#mobil" + mobilNr).addClass("mobil_billede");
     mobilNr++;
+    $("#mobil_lyd")[0].play();
 
-    if (mobilNr >= 7) {
-        setTimeout(payoff1, 2000);
+    if (mobilNr >= 6) {
+        setTimeout(payoff1, 5000);
     } else {
         setTimeout(mobilDelay, 1000);
     }
 }
+
+
 
 //Venstre ben
 
