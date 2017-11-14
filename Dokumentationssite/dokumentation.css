@@ -37,21 +37,32 @@ header li a:hover {
 TAGS [ <tag> ]
 ######################################## */
 
+body {
+    background-color: #f1f1f1;
+}
+
 img {
     width: 100%;
 }
 
 section {
     /* Kan slettes når sections har fået indhold */
-    width: 90vw;
+    width: 80vw;
     margin: 5vw auto;
+    padding: 3vw;
+
+    border-radius: 5vw;
 }
+
+
 
 /* ########################################
 SECTIONS [ #section ]
 ######################################## */
 
-#gruppe {}
+#gruppe {
+    background-color: blue;
+}
 
 #animation {
     background-color: red;
@@ -90,7 +101,27 @@ SECTIONS [ #section ]
 }
 
 #assets {
-    background-color: darkred;
+    background-color: #4d4c4c;
+}
+
+#assets img {
+
+    width: 10vw;
+
+}
+
+.assets :hover {}
+
+#assets .sprite img {
+    width: 60vw;
+
+
+}
+
+#assets .baggrund img {
+    width: 30vw;
+
+
 }
 
 #test {
