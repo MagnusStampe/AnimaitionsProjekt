@@ -9,7 +9,6 @@ header ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 header li {
@@ -55,7 +54,6 @@ section {
     width: 80vw;
     margin: 5vw auto;
     padding: 3vw;
-
     border-radius: 5vw;
 }
 
@@ -82,42 +80,8 @@ SECTIONS [ #section ]
 }
 
 #persona {
-<<<<<<< HEAD
     background-color: white;
-
 }
-
-.p1,
-.p2 {
-
-    display: flex;
-    flex-wrap: wrap;
-
-
-=======
-    background-color: #E9ECED;
->>>>>>> origin/master
-}
-
-.p1 .text,
-.p2 .text {
-    flex-basis: 375px;
-    flex-grow: 2;
-
-}
-
-
-.p1 .img,
-.p2 .img {
-    flex-basis: 375px;
-    flex-grow: 1;
-
-    width: 50%;
-
-
-}
-
-
 
 #moodboard {
     background-color: #FFFFFF;
@@ -132,7 +96,7 @@ SECTIONS [ #section ]
 }
 
 #scener_karaktere img {
-    width: 50vw;
+    width: 35vw;
 }
 
 #layoutdiagram {
@@ -193,9 +157,6 @@ SECTIONS [ #section ]
     background-color: #E9ECED;
 }
 
-/* ########################################
-SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
-######################################## */
 
 #moodboard img {
     width: 100%;
@@ -203,8 +164,49 @@ SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 }
 
 /* ########################################
+SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
+######################################## */
+
+/* ########################################
 CLASSES [ .class ]
 ######################################## */
+
+.p1,
+.p2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E9ECED;
+}
+
+.p1 .text,
+.p2 .text {
+    flex-basis: 375px;
+    flex-grow: 2;
+}
+
+
+.p1 .img,
+.p2 .img {
+    flex-basis: 375px;
+    flex-grow: 1;
+
+    width: 50%;
+}
+
+.scener_karaktere {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    max-width: 80vw;
+    height: 100%;
+}
+
+.scener_karaktere img {
+    flex-basis: 300px;
+    align-self: center;
+}
+
 
 /* ########################################
 KEYFRAMES [ @keyframes ]
