@@ -126,7 +126,7 @@ SECTIONS [ #section ]
 }
 
 #assets .sprite img:hover {
-    width: 90vw;
+    width: 100%;
 }
 
 #assets .baggrund img {
