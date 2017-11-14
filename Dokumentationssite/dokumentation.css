@@ -130,6 +130,10 @@ SECTIONS [ #section ]
     background-color: #FFFFFF;
 }
 
+#scener_karaktere img {
+    width: 50vw;
+}
+
 #layoutdiagram {
     background-color: #E9ECED;
 }
