@@ -15,6 +15,7 @@ header ul {
 
 header li a {
 
+    padding: 10px 6px;
     text-align: center;
     margin: 0 5vw 0 0;
     color: #f1f1f1;
@@ -22,7 +23,6 @@ header li a {
 }
 
 nav {
-    padding: 10px 6px;
     width: 100vw;
 
 }
@@ -37,10 +37,24 @@ header li a:hover {
 TAGS [ <tag> ]
 ######################################## */
 
-section {
-    /* Kan slettes når sections harfået indhold */
-    width: 100vw;
+body {
+    background-color: #f1f1f1;
 }
+
+img {
+    width: 100%;
+}
+
+section {
+    /* Kan slettes når sections har fået indhold */
+    width: 80vw;
+    margin: 5vw auto;
+    padding: 3vw;
+
+    border-radius: 5vw;
+}
+
+
 
 /* ########################################
 SECTIONS [ #section ]
@@ -53,35 +67,35 @@ SECTIONS [ #section ]
 }
 
 #historie {
-    background-color: green;
-}
-
-#storyboard_flowchart {
-    background-color: cyan;
-}
-
-#persona {
-    background-color: lightblue;
-}
-
-#moodboard {
-    background-color: grey;
-}
-
-#styletile {
-    background-color: pink;
-}
-
-#scener_karaktere {
-    background-color: powderblue;
-}
-
-#layoutdiagram {
     background-color: white;
 }
 
+#storyboard_flowchart {
+    background-color: white;
+}
+
+#persona {
+    background-color: white;
+}
+
+#moodboard {
+    background-color: white;
+}
+
+#styletile {
+    background-color: white;
+}
+
+#scener_karaktere {
+    background-color: white;
+}
+
+#layoutdiagram {
+    background-color: pink;
+}
+
 #sekvensdiagram {
-    background-color: brown;
+    background-color: skyblue;
 }
 
 #assets {
