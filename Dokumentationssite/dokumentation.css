@@ -102,6 +102,10 @@ section {
     border-radius: 5vw;
 }
 
+h1 {
+    margin-bottom: 3vw;
+}
+
 
 
 /* ########################################
@@ -223,6 +227,7 @@ CLASSES [ .class ]
     display: flex;
     flex-wrap: wrap;
     background-color: #E9ECED;
+    padding: 2vw;
 }
 
 .p1 .text,
@@ -236,8 +241,8 @@ CLASSES [ .class ]
 .p2 .img {
     flex-basis: 375px;
     flex-grow: 1;
+    max-width: 30vw;
 
-    width: 50%;
 }
 
 .scener_karaktere {
