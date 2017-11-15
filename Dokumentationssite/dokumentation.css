@@ -53,6 +53,14 @@
     align-self: center;
 }
 
+.burger {
+    height: 4vw;
+    width: 4vw;
+    margin: 0.5vw;
+    background-image: url(../img/burger.svg);
+    background-size: cover;
+}
+
 .dropdown:hover .dropdown_content {
     display: flex;
 }
@@ -63,9 +71,6 @@ header li:hover {
     background-color: #1f1f1f;
 }
 
-.dropdown_content li:hover a {
-    color: #f4912d;
-}
 
 /*
 .dropdown div:hover {
