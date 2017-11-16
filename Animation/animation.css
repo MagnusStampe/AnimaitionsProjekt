@@ -483,7 +483,12 @@ SECTIONS [ #section ]
 }
 
 
-
+#restart {
+    font-family: sans-serif;
+    font-size: 4vw;
+    width: 20vw;
+    height: 10vw;
+}
 
 
 
@@ -630,7 +635,6 @@ CLASSES [ .class ]
 .mobil_billede {
     background-position: 100% 0%;
 }
-
 
 /* ########################################
 KEYFRAMES [ @keyframes ]
