@@ -188,11 +188,3 @@ function krediteringsbillede() {
 function payoff2() {
     $("#payoff2").fadeIn(1000);
 }
-
-//Start forfra knap
-$("#restart").on("click", resetBtnHandler);
-
-function resetBtnHandler() {
-    location.reload();
-
-}

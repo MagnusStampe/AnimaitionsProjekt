@@ -483,14 +483,6 @@ SECTIONS [ #section ]
 }
 
 
-#restart {
-    font-family: sans-serif;
-    font-size: 4vw;
-    width: 20vw;
-    height: 7vw;
-}
-
-
 
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
