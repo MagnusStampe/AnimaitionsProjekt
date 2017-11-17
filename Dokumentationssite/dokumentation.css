@@ -27,7 +27,7 @@
     color: #f1f1f1;
     font-size: 2.5vw;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .dropdown_content {
@@ -104,8 +104,16 @@ section {
 
 h1 {
     margin-bottom: 3vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
+p {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 /* ########################################
@@ -228,12 +236,19 @@ CLASSES [ .class ]
     flex-wrap: wrap;
     background-color: #E9ECED;
     padding: 2vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .p1 .text,
 .p2 .text {
     flex-basis: 375px;
     flex-grow: 2;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+
 }
 
 
