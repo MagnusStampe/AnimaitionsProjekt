@@ -484,9 +484,6 @@ SECTIONS [ #section ]
 
 
 
-
-
-
 /* ########################################
 SECTION SPECIFIC CLASSES AND TAGS [ #section .class / #section tag ]
 ######################################## */
@@ -630,7 +627,6 @@ CLASSES [ .class ]
 .mobil_billede {
     background-position: 100% 0%;
 }
-
 
 /* ########################################
 KEYFRAMES [ @keyframes ]
