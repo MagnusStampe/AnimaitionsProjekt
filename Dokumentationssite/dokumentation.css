@@ -275,6 +275,16 @@ CLASSES [ .class ]
     align-self: center;
 }
 
+.burndown {
+    background-image: url(../img/burndown.JPG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80vw;
+    height: 80vw;
+    transform: rotate(90deg);
+}
+
 
 /* ########################################
 KEYFRAMES [ @keyframes ]
